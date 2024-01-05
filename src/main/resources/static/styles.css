@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #2c3e50, #3498db);
+    color: #ffffff;
+    background-size: 100% 100vh;
+    transition: background 0.5s ease;
+}
+
+header {
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center; /* Center the text in the header */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Adjust space between menu and form */
+}
+
+.form-container {
+    margin-bottom: 20px; /* Add space between form and tasks list */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, button {
+    margin-top: 10px; /* Add space between input and button */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+.home-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px; /* Add space between content and the link */
+    display: inline-block; /* Display the link as a block element */
+    padding: 10px 20px; /* Add padding to make it look like a button */
+    background-color: #3498db; /* Button background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add smooth transition */
+}
+
+.home-link:hover {
+    background-color: #2980b9; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+}
