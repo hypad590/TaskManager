@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface UsersTaskRepository extends MongoRepository<UsersTask,String> {
-
+    UsersTask findByTask(String task);
 }
